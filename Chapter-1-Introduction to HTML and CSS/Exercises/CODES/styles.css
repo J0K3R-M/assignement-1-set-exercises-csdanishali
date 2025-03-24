@@ -70,3 +70,31 @@ li:hover {
     color: #d65a31; /* Light orange highlight */
     cursor: pointer; /* Adds a pointer for visual cue */
 }
+/* Set a background color or image for the body */
+body {
+    background-color: #f9f5f0; /* Light beige background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the recipe image */
+.recipe-image {
+    display: block;
+    max-width: 50%; /* Adjust the width as needed */
+    height: auto;
+    margin: 20px auto; /* Centers the image horizontally */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Center the text and image container */
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centers the text */
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px; /* Adds some padding for spacing */
+}
